@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['fnamek'])) {
+if (isset($_POST['fname'])) {
 	echo "POST var";
 }else{
 	echo "POST yok";
