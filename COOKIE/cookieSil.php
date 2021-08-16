@@ -1,7 +1,7 @@
 <?php
 //cookieOluşturKontrolEt sayfasında oluşturduğumuz cookileri silelim
 
-setcookie("isim","",time()-20);//silmek için şimdi zamandan geçmiş zamana gitmen yeterli herhangi bir değer verebilirsin.
+setcookie("isim","",time()-20);//silmek için şimdiki zamandan geçmiş zamana gitmen yeterli herhangi bir değer verebilirsin.
 setcookie("sifre","",time()-10);
 
 //silinip silinmediğinin kontrolü:
