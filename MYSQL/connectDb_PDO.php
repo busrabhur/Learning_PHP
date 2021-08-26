@@ -7,7 +7,7 @@ try {
 	$db=new PDO("mysql:host=localhost; dbname=deneme",'root','');
 	echo"Veritabanı bağlantısı sağlandı.";
 	
-} catch (Exception $e) {
+} catch (PDOException $e) {
 	//bağlantı sağlanamadıysa catch e girer.Sebebini getmesagge söyler
 	echo $e->getmessage();
 }
